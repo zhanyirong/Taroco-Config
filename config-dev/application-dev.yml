@@ -34,7 +34,7 @@ spring:
 server:
   tomcat:
     max-threads: 200 # Maximum amount of worker threads.
-    min-spare-threads: 10 # Minimum amount of worker threads
+    min-spare-threads: 20 # Minimum amount of worker threads
 
 # eureka配置
 eureka:
