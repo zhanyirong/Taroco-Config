@@ -22,14 +22,14 @@ management:
     health:
       show-details: always
 
-spring:
-  zipkin:
-    base-url: ${base.zipkin.url}
-    sender:
-      type: web
-  sleuth:
-    sampler:
-      percentage: 1.0
+#spring:
+#  zipkin:
+#    base-url: ${base.zipkin.url}
+#    sender:
+#      type: web
+#  sleuth:
+#    sampler:
+#      percentage: 1.0
 
 server:
   tomcat:
