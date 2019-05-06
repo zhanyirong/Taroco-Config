@@ -3,7 +3,8 @@
 # jpa配置 数据源配置
 spring:
   datasource:
-    url: ${base.mysql.url}/taroco-oauth2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    #url: ${base.mysql.url}/taroco-oauth2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: ${base.mysql.url}/taroco-oauth2?useUnicode=true
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
